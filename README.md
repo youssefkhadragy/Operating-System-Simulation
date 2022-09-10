@@ -1,4 +1,4 @@
 # Operating-System-Simulation
-**To run operating system simulation compile and run Main.java file.<ins> Note:</ins> User input is required through execution otherwise execution of simulation will be paused until input is provided. (Required user input varies upon current instruction executed by simulated OS).**\
-<ins>Decription:</ins>
+**To run operating system simulation compile and run Main.java file. <ins>Note:</ins> User input is required through execution otherwise execution of simulation will be paused until input is provided. (Required user input varies upon current instruction executed by simulated OS).**\
+**<ins>Decription:</ins>**
 This is a simulation of a given operating system that demonstrates concurrent execution of three programs as well as demonstrates the use of semaphores and mutexes to protect critical resources. Also the use of virtual memory is demonstrated as the three programs cannot all fit in main memory(RAM) concurrenty. The simulated operating system parses the three programs and outputs the current clock cycle, content of the memory, programs in the blocked queue of the OS and programs in the ready queue of the OS.
