@@ -1,0 +1,17 @@
+Program_2
+#
+#
+#
+semWait userInput
+assign a input
+assign b input
+semSignal userInput
+semWait file
+writeFile a b
+semSignal file
+Process ID: 2
+Process State: Blocked
+Program Counter: 1
+Lower Bound: 15
+Upper Bound: 29
+$
